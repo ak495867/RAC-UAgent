@@ -1,5 +1,8 @@
 # RAC-UAgent: Risk-Aware Action Selection for Uncertainty-Calibrated Tool-Using Language Model Agents
 
+[![License](https://img.shields.io/badge/license-MIT-green.svg )](LICENSE)
+[![Paper](https://img.shields.io/badge/paper-PDF-b31b1b.svg )](Paper/RAC-UAgent.pdf)
+
 > **RAC-UAgent** stands for **Risk-Aware Control for Uncertainty-Calibrated Agents**.**Research status:** Theoretical framework and research proposal. The architecture and hypotheses are specified, but empirical validation is not yet complete.
 
 Tool-using language-model agents can plan, retrieve information, call external tools, and execute multi-step workflows. However, a locally plausible action can still create a globally invalid or unsafe trajectory when the agent selects the wrong tool, supplies malformed arguments, trusts a misleading observation, or continues after uncertainty becomes decision-relevant.
